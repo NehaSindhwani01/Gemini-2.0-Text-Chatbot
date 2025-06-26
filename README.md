@@ -61,11 +61,6 @@ Edit
 python Chatbot.py
 Gradio will open in your browser with the chatbot UI.
 
-🖼️ UI Preview
-![Chatbot UI Preview](screenshots/ui-img.png)
-![Chatbot UI Preview](screenshots/asking_ques.png)
-![Chatbot UI Preview](screenshots/chat_history.png)
-
 ✨ Future Improvements
 Add voice input and TTS (Text-to-Speech)
 
