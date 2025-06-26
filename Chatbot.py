@@ -1,8 +1,12 @@
+from dotenv import load_dotenv
+import os
 import gradio as gr
 import sqlite3
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyCe1vmvlNFWL8wCS035RgKUlpvFTWC4sJk")
+load_dotenv()
+
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 DB_NAME = "chat_history.db"
