@@ -35,29 +35,16 @@ Day_14_CHATBOT/
 
 🧪 How to Run Locally
 1. Clone the repository
-bash
-Copy
-Edit
 git clone https://github.com/NehaSindhwani01/gemini-chatbot.git
 cd gemini-chatbot
 2. Install required packages
-bash
-Copy
-Edit
 pip install gradio google-generativeai
 3. Add your Gemini API Key
 In Chatbot.py, replace this line:
-
-python
-Copy
-Edit
 genai.configure(api_key="YOUR-API-KEY")
 with your own API key.
 
 4. Run the chatbot
-bash
-Copy
-Edit
 python Chatbot.py
 Gradio will open in your browser with the chatbot UI.
 
