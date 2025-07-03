@@ -7,9 +7,13 @@ An intelligent AI-powered chatbot built using **Google Gemini API**, **Gradio** 
 ## 🚀 Features
 
 - 🧠 Integrated with **Gemini 2.0** to generate smart replies.
+  
 - 💬 Real-time chat interface using **Gradio**.
+  
 - 🗃️ Saves chat history using **SQLite** (threaded conversations).
+  
 - 🆕 Start new conversations anytime with a single click.
+  
 - 📜 Side panel with full chat history (collapsible threads).
 
 ---
@@ -27,7 +31,6 @@ An intelligent AI-powered chatbot built using **Google Gemini API**, **Gradio** 
 
 ## 📂 Project Structure
 
-```bash
 Day_14_CHATBOT/
 │
 ├── Chatbot.py          # Main backend logic
@@ -35,20 +38,30 @@ Day_14_CHATBOT/
 
 🧪 How to Run Locally
 1. Clone the repository
+
 git clone https://github.com/NehaSindhwani01/gemini-chatbot.git
+
 cd gemini-chatbot
+
 2. Install required packages
+
 pip install gradio google-generativeai
+
 3. Add your Gemini API Key
+   
 In Chatbot.py, replace this line:
+
 genai.configure(api_key="YOUR-API-KEY")
 with your own API key.
 
 4. Run the chatbot
+   
 python Chatbot.py
+
 Gradio will open in your browser with the chatbot UI.
 
-✨ Future Improvements
+## ✨ Future Improvements
+
 Add voice input and TTS (Text-to-Speech)
 
 Add user authentication
@@ -57,7 +70,8 @@ Export conversation to PDF or text
 
 Deploy online using Hugging Face / Render
 
-🙋‍♀️ Created By
+##🙋‍♀️ Created By
+
 Neha Sindhwani
 
 
